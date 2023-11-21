@@ -54,28 +54,66 @@ public class Enemy {
         }
     }
     
+    /**
+     * nameフィールドのセッターメソッド。
+     * @param _name
+     */
     public void setName(String _name){
         this.name = _name;
     }
+
+    /**
+     * hitPointフィールドのセッターメソッド。
+     * @param _hitPoint
+     */
     public void setHitPoint(int _hitPoint){
         this.hitPoint = _hitPoint;
     }
+
+    /**
+     * attackフィールドのセッターメソッド。
+     * @param _attack
+     */
     public void setAttack(int _attack){
         this.attack = _attack;
     }
+
+    /**
+     * deadフィールドのセッターメソッド。
+     * @param _dead
+     */
     public void setDead(boolean _dead){
         this.dead = _dead;
     }
     
+    /**
+     * nameフィールドのゲッターメソッド。
+     * @return this.name
+     */
     public String getName(){
         return this.name;
     }
+
+    /**
+     * hitPointフィールドのゲッターメソッド。
+     * @return this.hitPoint
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }
+
+    /**
+     *attackフィールドのゲッターメソッド。
+     * @return this.attack
+     */
     public int getAttack(){
         return this.attack;
     }
+
+    /**
+     * deadフィールドのゲッターメソッド。
+     * @return this.dead
+     */
     public boolean getDead(){
         return this.dead;
     }
